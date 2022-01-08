@@ -123,5 +123,10 @@
         "id": 500,
         "title": "Boxel Golf",
         "url": "img/png/skins/boxel-golf.png"
+    },
+    {
+        "id": 690,
+        "title": "Friday Night Funkin' Icon",
+        "url": "img/png/skins/fnf-icon.png"
     }
 ]
