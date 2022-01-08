@@ -1,5 +1,6 @@
 # Meeptey2's Boxel 3D Mod
-A modded version of [Boxel 3D by Kargoh](https://chrome.google.com/webstore/detail/boxel-3d/mjjgmlmpeaikcaajghilhnioimmaibon).
+A modded version of [Boxel 3D by Kargoh](https://chrome.google.com/webstore/detail/boxel-3d/mjjgmlmpeaikcaajghilhnioimmaibon).    
+Play the mod [here](https://meeptey2.github.io/boxel-modded/)!
 
 ## Modding Guide
 Currently, the mod is in a early state. So no modding guide yet, but I'm working on it.
