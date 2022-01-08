@@ -197,11 +197,23 @@ class Level extends THREE.Group {
             var settings = a.storage.getSettings(a);
             var progress = parseInt(settings.progress)
             progress++; // Increase level progress
-            if (progress > a.ui.maxLevels) { // Add last level dialog
+            if (progress > a.ui.maxLevels-1) { // Add last level dialog
                 progress--;
                 setTimeout(function() { 
                     app.ui.dialog.add({
                         text: 'Thank you for playing!<br>Go beat your high scores while we make more levels!',
+                        inputs: [
+                            { attributes: { value: 'No', type: 'button' }},
+                            { attributes: { value: 'Ok', type: 'button' }}
+                        ]
+                    });
+                }, 100);
+            }
+            if (progress > a.ui.maxLevels) { // Add last level dialog
+                progress--;
+                setTimeout(function() { 
+                    app.ui.dialog.add({
+                        text: 'Thank you for playing the mod!',
                         inputs: [
                             { attributes: { value: 'No', type: 'button' }},
                             { attributes: { value: 'Ok', type: 'button' }}
