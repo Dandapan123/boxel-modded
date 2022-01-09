@@ -1,6 +1,4 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "manifest_version": 3,
   "name": "Boxel 3D Modded",
   "description": "Meeptey2's modded version of Boxed 3D by Kargoh!",
