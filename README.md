@@ -12,6 +12,6 @@ And from there you can modify it to your heart's (and your programming skill's) 
 
 ## Why did I upload this to GitHub?
 I uploaded this to GitHub since the game wouldn't work if I just ran it on my laptop.   
-This is a problem since the game uses .json and many other files, Chromium based browsers have this weird thing where you can't access certain things if you run the file locally.    
+This is a problem since the game uses .json and many other files, At least Chromium based browsers (I use Microsoft Edge) have this weird thing where you can't access certain things if you run the file locally.    
 Due to that, I had to upload the project to GitHub to work.   
 TL;DR, Game wouldn't work if I didn't upload it to GitHub.
